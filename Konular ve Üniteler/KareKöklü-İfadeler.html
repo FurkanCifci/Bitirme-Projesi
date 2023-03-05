@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KareKöklü-İfadeler | Konular-Üniteler</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+    html , body{
+        height: 130%;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background:rgba(80, 162, 255, 0.8);}
+     .sorular img{
+        margin-left: 200px;
+        margin-top: 40px;
+        display: inline-block;
+     }
+     /* Burda flex kullanılarak cevap buttonları şekillendirilmiştir */
+    .cevaplar {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 140px;
+        width:1100px;
+        margin-bottom: 400px;
+     }
+     .cozum{
+        display: inline-flex;
+        flex-direction: column;
+
+     }
+    .cozum img{
+        position: relative;
+        left: 80px;
+    }
+    .cevaplar .a{
+        margin-left: 450px;
+    }
+    .cevaplar button{
+    width: 90px;    
+    font-size: 18px;
+    color: #f77272;
+    background:rgb(232, 129, 55) ;
+    border: solid 1px red;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-top: 30px;
+}
+#d{
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- Navbar burda ayarlanmıştır. -->
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">LOGO</a>
+            </div>
+            <ul>
+                <li><a href="/index.html">Ana Sayfa</a></li>
+                <li><a href="/Konular-Üniteler.html" class="active">Konular/Üniteler</a></li>
+                <li><a href="/Hakkımızda-Vizyonumuz.html">Hakkımızda-Vizyonumuz</a></li>
+                <li><a href="/iletişim.html">İletişim</a></li>
+            </ul>
+            </div>
+    <div class="sorular">
+        <img src="/img/karekok 1.png" alt="soru">
+    </div>
+           <div class="cevaplar">
+                <a class="a" href="#b"><button>A</button></a>
+                <a href="#d"><button>B</button></a>
+                <a href="#d"><button>C</button></a>
+                <a href="#b"><button>D</button></a> <br><br><br><br><br><br><br><br><br><br>
+            
+            </div> 
+            <div class="cozum">
+                <p id="b">.</p>
+                <img src="/img/karekok 2.png" alt="cevap 1.bolum">
+                
+                <p id="d">DOĞRU CEVAP <b>"B" SEÇENEĞİDİR.</b></p>
+                
+            </div>
+    </div>
+</body>
+</html>

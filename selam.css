@@ -1,0 +1,27 @@
+
+body{
+    background:rgba(122, 175, 237, 0.9);
+}
+.main{
+    position: relative;
+}
+.main .section .konu1{
+    position: relative;
+    top: 100px;
+    right: 100px ;
+    background:rgb(74, 155, 226) ;
+}
+.section .konu2 a h1{
+    font-size: 35px;
+}
+.section a{
+text-decoration: none;
+text-align: center;
+}
+.section a h1{
+font-size: 50px;
+font-family: Roboto;
+color: aliceblue;
+position: relative;
+top: 25px;
+}
