@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.logo{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     background:url(img/Adsız\ tasarım.png);
@@ -16,7 +20,7 @@ body{
 
     width: 100%;
     height: 80px;
-    background:rgba(80, 162, 255, 0.8);
+    background:rgb(80, 162, 255);
 }
 
 .navbar .logo {
